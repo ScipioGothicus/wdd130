@@ -1,9 +1,17 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    list-style-position: inside;
     background-color: #fca6c9;
+    max-width: 50%;
+    margin: auto;
 }
+
+ol {
+    font-weight: bolder;
+    display: block;
+    text-align: left;
+}
+
 #title {
     color: white;
 }
@@ -12,10 +20,16 @@ body {
     color: black;
 }
 
+h2.quote {
+    font-size: xx-large;
+    font-weight: normal;
+}
+
 .quote {
     color: white;
     font-family: 'Times New Roman', Times, serif
 }
+
 .quote.person {
     font-family: Verdana;
 }
