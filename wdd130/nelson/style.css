@@ -2,13 +2,18 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     background-color: #fca6c9;
-    max-width: 50%;
+    max-width: 500px;
     margin: auto;
+}
+
+header {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
 }
 
 ol {
     font-weight: bolder;
-    display: block;
     text-align: left;
 }
 

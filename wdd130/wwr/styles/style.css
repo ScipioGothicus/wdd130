@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200&family=Teko:wght@400&display=swap');
+
 body {
+    font-family: "Sarabun", Arial, Helvetica, sans-serif;
+    font-size: 22px;
     background-color: rgb(235, 249, 255);
+    margin: 0;
+    padding: 0;
+
 }
 
 header {
@@ -8,6 +15,12 @@ header {
 
 footer {
     background-color: #0194A2;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer a {
@@ -25,12 +38,18 @@ footer p {
     font-size: x-large;
 }
 
+h2 {
+    margin: 0;
+}
+
 h4 {
     color: #0B7589;
 }
 
 nav a {
     text-decoration: none;
+    text-align: center;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -40,12 +59,19 @@ nav a:hover {
 
 .home-title {
     color: #1E2749;
+    font-size: 2em;
+    font-family: "Teko", Arial, Helvetica, sans-serif;
+    margin-top: 10px;
 }
 
 .book, .join {
     background-color: #0194A2;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -53,22 +79,36 @@ nav a:hover {
     color: #1E2749;
 }
 
+.card-img {
+    border: 10px solid #1E2749;
+}
+
 .icon {
     width: 80px;
     height: 80px;
+    padding-top: 10px;
 }
 
 .msg {
     background-color: #1E2749;
     color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #fefefe;
+    font-family: "Teko", Arial, Helvetica, sans-serif;
 }
 
 .msg p {
     color: #fefefe;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
 div#content {
@@ -78,6 +118,10 @@ div#content {
 
 nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
     text-align: center;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 #hero-img {
