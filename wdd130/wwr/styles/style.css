@@ -131,3 +131,29 @@ nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
 #background {
     height: 725px;
 }
+#faq-title {
+    color: #1E2749;
+    font-size: 3em;
+    font-family: "Teko", Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    text-align: center;
+}
+.qna {
+    content: "";
+    clear: both;
+    display: table;
+}
+.qna img {
+    padding: 30px;
+    width: 600px;
+    float:right;
+}
+.qna h2 {
+    
+    font-size: 1.2em;
+    padding: 10px;
+}
+.qna p {
+    margin: auto;
+    max-width: 80%;
+}
