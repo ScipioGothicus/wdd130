@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: auto;
+    padding: 0;
+    height: 100%;
+}
+
+main {
+    overflow: scroll;
+    height: 100%;
+}
+
+header, footer {
+    width: 100%;
+    font-family: "Rubik", sans-serif;
+    color: white;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background-color: #DB5461;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    background-color: #3D5467;
+    overflow: auto;
+}
+
+footer p {
+    float: left;
+    padding-left: 24px;
+}
+
+footer a {
+    padding-right: 24px;
+    padding-top: 16px;
+    float: right;
+}
+
+nav {
+    width: 100%;
+    overflow: auto;
+}
+
+.content {
+    font-family: "Open Sans", sans-serif;
+    overflow:visible;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.top-content {
+    margin-top: 5%;
+}
+
+.bottom-content {
+    margin-top: 25%;
+}
+
+.top-content p {
+    margin-top: 5%;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom-content p {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-image {
+    float: left;
+    margin-right: 20px;
+}
+
+.content-right p {
+    float:right;
+    text-align: right;
+}
+
+.content p {
+    overflow: auto;
+    padding: 12px;
+    font-size: 20px;
+}
+
+.title {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 50px;
+}
+
+.logo {
+    float: left;
+}
+
+.navlinks a {
+    float: left;
+    padding: 22.5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.navlinks a:hover {
+    transition: .25s ease;
+    color: black;
+    background-color: #F1EDEE;
+}
+
+
